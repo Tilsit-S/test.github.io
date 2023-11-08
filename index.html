@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="Description" content="Test">
+        <title>Test</title>
+        <link rel="stylesheet" href="css/style.min.css">
+    </head>
+    <body>
+        <header class="page-header header">
+            <div class="header__wrapper container">
+                <div class="header__navigation navigation">
+                    <img src="img/header/logo.svg" alt="Socratic-logo">
+                </div>
+            </div>
+        </header>
+
+        <main class="page-main main">
+            <section class="main__form form">
+                <div class="form__wrapper container">
+                    <form class="form__content">
+                        <div class="form__picture">
+                            <img src="img/main/Illustration.png" alt="woman with pc">
+                        </div>
+                        <div class="form__feedback-form feedback-form">
+                            <h2 class="feedback-form__title">
+                                01 Заполни форму
+                            </h2>
+                            <div class="feedback-form__search-field">
+                                <div class="feedback-form__search-wrapper">
+                                    <label class="feedback-form__type-of-title">Тема урока</label>
+                                    <input type="search" id="textfield1" class="feedback-form__type-of" placeholder="Напиши что-то конкретное">
+                                </div>
+                                <div class="select-field">
+                                    <label class="select-field__title">Класс</label>
+                                    <input class="select visually-hidden" value="4">
+                                    <span class="select-field__current-value">4</span>
+                                    <div class="select-field__list" id="selectList">
+                                        <a href="#" class="select-field__item" data-class="1">1</a>
+                                        <a href="#" class="select-field__item" data-class="2">2</a>
+                                        <a href="#" class="select-field__item" data-class="3">3</a>
+                                        <a href="#" class="select-field__item select-field__item_selected" data-class="4">4</a>
+                                        <a href="#" class="select-field__item" data-class="5">5</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="feedback-form__tags-list">
+                                <div class="feedback-form__tags-list-wrapper">
+                                    <span class="feedback-form__tag">Генетика</span>
+                                    <span class="feedback-form__tag">Анатомия человека</span>
+                                    <span class="feedback-form__tag">Вулканы</span>
+                                    <span class="feedback-form__tag">Зимние виды спорта</span>
+                                    <span class="feedback-form__tag">Радуга</span>
+                                    <span class="feedback-form__tag">Индийская культура</span>
+                                    <span class="feedback-form__tag">Радуга</span>
+                                    <span class="feedback-form__tag">Пеший туризм</span>
+                                    <span class="feedback-form__tag">Философия</span>
+                                    <span class="feedback-form__tag">Вселенная</span>
+                                    <span class="feedback-form__tag">Здоровые привычки</span>
+                                    <span class="feedback-form__tag">Бабочки</span>
+                                    <span class="feedback-form__tag">Белые медведи</span>
+                                    <span class="feedback-form__tag">Экономика</span>
+                                    <span class="feedback-form__tag">Финансовая грамотность</span>
+                                    <span class="feedback-form__tag">Фотосинтез</span>
+                                </div>
+                                <button class="feedback-form__show-more-btn">
+                                    Показать больше вариантов
+                                </button>
+                            </div>
+                            <div class="feedback-form__objective-wrapper">
+                                <label class="feedback-form__objective-title">Цель урока</label>
+                                <textarea class="feedback-form__objective" placeholder="Напиши свою учебную цель"></textarea>
+                                <div class="feedback-form__control-wrapper">
+                                    <p class="feedback-form__reminder">Enter your name</p>
+                                    <p class="feedback-form__text-counter">
+                                        <span class="feedback-form__counter-current">0</span> 
+                                        / 
+                                        <span class="feedback-form__counter-max"></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="feedback-form__button-wrapper">
+                                <button class="feedback-form__back-button">
+                                    Назад
+                                </button>
+                                <button type="submit" class="feedback-form__next-button feedback-form__next-button_current">
+                                    Следующий шаг
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
